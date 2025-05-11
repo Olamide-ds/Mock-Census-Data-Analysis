@@ -1,30 +1,48 @@
-# Mock-Census-Data-Analysis
+🏙️ Mock Census Data Analysis
 
+📌 Project Overview
+This project analyzes a fictional census dataset from a mock town to help local government officials make informed decisions about land use and public investments. Through data cleaning, exploratory analysis, and visualization, it identifies demographic trends and provides strategic recommendations.
 
-This project simulates the analysis of a fictional census dataset for a hypothetical town. It aims to support decision-making on land use, resource allocation, and investment planning for local government authorities. The analysis includes data visualization, insights on population demographics, education levels, employment, transport use, and investment recommendations.
+🧹 Data Cleaning
 
-Features
-Data cleaning and preprocessing using pandas
+- The dataset included 9769 entries and 11 columns. Cleaning steps included:
 
-Exploratory data analysis (EDA) with visualizations (matplotlib, seaborn)
+- Handling missing and suspicious values
 
-Demographic breakdown (age, gender, income, education)
+- Mapping and correcting categorical entries (e.g., marital status, infirmities)
 
-Transport and employment trends
+- Grouping and imputing missing surnames by household
 
-Strategic recommendations for land use and investment
+- Replacing invalid entries with contextually appropriate labels
 
-Tools & Technologies
-Python
+📊 Analysis Highlights
 
-Pandas, NumPy
+✅ Youthful population: Most citizens are aged 20–39
 
-Matplotlib, Seaborn
+🚉 Commuter-heavy town: Over 52% are regular commuters
 
-Jupyter Notebook
+🏘️ Underused housing: More than half the houses are under-occupied
 
-Use Case
-Ideal for those learning data analysis or exploring how data-driven decisions can impact urban planning and public policy.
+🙏 Religious demand: 43.9% Christians but only one religious building
 
+👴 Ageing concerns: High potential for increased elderly population in the future
+
+🧠 Recommendations
+
+- Based on the data and using elimination-by-aspects:
+
+- Build a train station on the unoccupied land (top priority)
+
+-  Invest in old-age care services for long-term community support
+
+🛠️ Tools Used
+
+- Python 🐍
+
+- Jupyter Notebook 📓
+
+- Pandas, NumPy 🔢
+
+- Seaborn, Matplotlib 📈
 Author
 Olamide Bankole
