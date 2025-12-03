@@ -44,5 +44,3 @@ This project analyzes a fictional census dataset from a mock town to help local 
 - Pandas, NumPy 🔢
 
 - Seaborn, Matplotlib 📈
-Author
-Olamide Bankole
